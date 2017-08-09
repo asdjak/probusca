@@ -1,0 +1,219 @@
+/* ======== Cores */
+/* ======== Font */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+/* ======== Cores */
+/* ======== Font */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+  line-height: 1; }
+  body strong {
+    font-weight: 700; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+a {
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  a:hover, a:focus {
+    text-decoration: none !important;
+    color: #31b1e7; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.botao {
+  background-color: #7c62ad;
+  border-color: #7c62ad;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .botao:hover {
+    background-color: #e1e1e1;
+    color: white; }
+  .botao:focus {
+    background-color: #4a4e62;
+    color: white; }
+
+.botao-1 {
+  background-color: #4a4e62;
+  border-color: #4a4e62;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .botao-1:hover {
+    background-color: #a8a8a8;
+    color: white; }
+  .botao-1:focus {
+    background-color: #4a4e62;
+    color: white; }
+
+.botao-2 {
+  background-color: #7c62ad;
+  border-color: #7c62ad;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .botao-2:hover {
+    background-color: #483675;
+    color: white; }
+  .botao-2:focus {
+    background-color: #4a4e62;
+    color: white; }
+
+.botao-3 {
+  background-color: #afde5c;
+  border-color: #afde5c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .botao-3:hover {
+    background-color: #5cb85c;
+    color: white; }
+  .botao-3:focus {
+    background-color: #0e580e;
+    color: white; }
+
+.botao-4 {
+  color: white;
+  border-color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .botao-4:hover {
+    background-color: #e1e1e1;
+    color: white; }
+  .botao-4:focus {
+    background-color: #7f7f7f;
+    color: white; }
+
+.pequeno {
+  padding: 7px;
+  font-size: 18px;
+  font-size: 1.125rem; }
+
+.medio {
+  padding: 9px;
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.grande {
+  padding: 15px;
+  font-size: 24px;
+  font-size: 1.5rem; }
+
+header {
+  min-height: 100px;
+  position: relative;
+  background-color: #7c62ad; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+  header .logo {
+    margin: 30px 0 0;
+    float: left; }
+    header .logo img {
+      width: 130px;
+      height: 35px; }
+  header .links {
+    float: right;
+    margin: 35px 0; }
+    @media (max-width: 991px) {
+      header .links nav {
+        display: none; } }
+    @media (max-width: 440px) {
+      header .links nav {
+        display: none; } }
+    header .links nav ul li {
+      display: inline-block;
+      margin: 0 1px 0 0; }
+      header .links nav ul li a {
+        text-transform: uppercase;
+        color: white; }
+
+footer {
+  background-color: #2a2e3e;
+  padding: 12px;
+    padding-position: absolute;
+    padding-bottom: 0;
+    padding-width: 100%; }
+  footer p {
+    text-align: center;
+    color: white; }
+  footer .logo-rodape img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 35px auto; }

@@ -1,0 +1,177 @@
+/* ======== Cores */
+/* ======== Font */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+#page-container.boxed {
+  max-width: 1260px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+body, #page-container, #sidebar, .sidebar-nav ul .active > ul, .sidebar-nav ul .open + ul {
+  background-color: #282c3a; }
+
+#page-container {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+div {
+  display: block; }
+
+.botao-3,
+.botao-2 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: 30px auto; }
+  @media (max-width: 991px) {
+    .botao-3,
+    .botao-2 {
+      padding: 8px;
+      font-size: 17px;
+      font-size: 1.0625rem; } }
+
+.sobre {
+  background-color: #4a4e62; }
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  clear: both;
+  margin: 90px auto 80px auto !important;
+  font-weight: 300;
+  border: 3px solid white;
+  padding: 20px;
+  display: table; }
+  @media (max-width: 440px) {
+    h1 {
+      font-size: 20px;
+      font-size: 1.25rem; } }
+
+.social {
+  color: white;
+  float: right;
+  display: block;
+  margin-right: 5px; }
+  @media (max-width: 991px) {
+    .social {
+      font-size: 40px;
+      font-size: 2.5rem; } }
+
+section.sobre .itens {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  margin: 50px 0;
+  text-align: center;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    section.sobre .itens {
+      float: left;
+      width: 83.33333%; } }
+  @media (min-width: 768px) {
+    section.sobre .itens {
+      margin-left: 8.33333%; } }
+  @media (max-width: 991px) {
+    section.sobre .itens {
+      margin: 0 0 30px; } }
+  section.sobre .itens .foto {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -moz-order: 1;
+    -ms-flex-order: 1;
+    order: 1; }
+    @media (max-width: 991px) {
+      section.sobre .itens .foto {
+        margin: 0 0 30px; } }
+    section.sobre .itens .foto img {
+      width: 560px;
+      border: 5px solid #2a2e3e;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px; }
+      @media (max-width: 991px) {
+        section.sobre .itens .foto img {
+          width: 250px;
+          margin-top: 20px; } }
+
+section.sobre [class^="icone-"] {
+  width: 90px;
+  height: 90px;
+  background-color: #7f7f7f;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  -ms-border-radius: 120px;
+  border-radius: 120px;
+  text-align: center;
+  line-height: 85px;
+  color: white;
+  font-size: 55px;
+  font-size: 3.4375rem; }
+  @media (max-width: 991px) {
+    section.sobre [class^="icone-"] {
+      display: inline-block;
+      width: 75px;
+      height: 75px;
+      line-height: 75px;
+      font-size: 50px;
+      font-size: 3.125rem;
+      margin: 240px 50px 3px 50px; } }
+  section.sobre [class^="icone-"].icone-fire {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-flex-order: 2;
+    order: 2; }
+  section.sobre [class^="icone-"].icone-code {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-flex-order: 3;
+    order: 3; }
+  section.sobre [class^="icone-"] p {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-size: 1.5625rem;
+    text-align: center;
+    margin: -17px auto 0 auto; }
+
+section.sobre .textos {
+  position: absolute !important;
+  color: white;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    section.sobre .textos {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 768px) {
+    section.sobre .textos {
+      margin-left: 16.66667%; } }
+  @media (max-width: 991px) {
+    section.sobre .textos {
+      font-size: 15px;
+      font-size: 0.9375rem; } }

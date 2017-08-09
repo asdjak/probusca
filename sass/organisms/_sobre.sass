@@ -1,0 +1,101 @@
+@import organisms/shadow
+
+.botao-3,
+.botao-2
+	+border-radius(10px)
+	margin: 30px auto
+	+breakpoint($tablet)
+		padding: 8px
+		+font-size(17px)
+
+.sobre
+	background-color: $azul-muito-escuro
+h1
+	color: $branco
+	text-transform: uppercase
+	clear: both
+	margin: 90px auto 80px auto !important
+	font-weight: $light
+	border: 3px solid $branco
+	padding: 20px
+	display: table
+	+breakpoint($celular)
+		+font-size(20px)
+
+
+
+.social
+	color: $branco
+	float: right
+	display: block
+	margin-right: 5px
+	+breakpoint($tablet)
+		+font-size(40px)
+
+section.sobre
+	.itens
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		margin: 50px 0 
+		text-align: center
+
+		+make-sm-column(10)
+		+make-sm-column-offset(1)
+		+breakpoint($tablet)
+			margin: 0 0 30px
+
+		.foto
+			+order(1)
+			+breakpoint($tablet)
+				margin: 0 0 30px
+			img
+				width: 560px
+				border: 5px solid $cinza-borda
+				+border-radius(5px)
+				+breakpoint($tablet)
+					width: 250px
+					margin-top: 20px
+
+
+
+	[class^="icone-"]
+		width: 90px
+		height: 90px
+		background-color: $cinza-escuro
+		+border-radius(120px)
+		text-align: center
+		line-height: 85px
+		color: $branco
+		+font-size(55px)
+
+		+breakpoint($tablet)
+			display: inline-block
+			width: 75px
+			height: 75px
+			line-height: 75px
+			+font-size(50px)
+			margin: 240px 50px 3px 50px
+
+	
+
+		&.icone-fire
+			+order(2)
+		&.icone-code
+			+order(3)
+
+		p
+			text-transform: uppercase
+			+font-size(25px)
+			text-align: center
+			margin: -17px auto 0 auto
+	
+	.textos
+		position: absolute !important
+		color: $branco
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+		text-align: center
+		//margin: 350px auto 30px auto !important
+		+breakpoint($tablet)
+			+font-size(15px)
